@@ -1,8 +1,32 @@
 header{
     height: 90px;
-    background-color: aquamarine;
+    background-color: blue;
 }
 
 .avatar-img{
     max-width: 200px;
 }
+
+section.jumbotron{
+    background-color: #1abc9c;
+}
+
+section.jumbotron h5{
+    font-size:15px;
+}
+
+
+/*MEDIA QUERY*/
+
+@media screen and (min-width:576px) {
+    section.jumbotron h5 {
+        font-size: 18px;
+    }
+}
+@media screen and (min-width:768px) {
+    section.jumbotron h5 {
+        font-size: 19px;
+    }
+}
+
+
