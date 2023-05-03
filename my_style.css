@@ -15,6 +15,9 @@ section.jumbotron h5{
     font-size:15px;
 }
 
+button{
+    border: 1px solid white;
+}
 
 /*MEDIA QUERY*/
 
@@ -22,11 +25,24 @@ section.jumbotron h5{
     section.jumbotron h5 {
         font-size: 18px;
     }
+
+    div.about{
+        max-width: 470px;
+    }
 }
+
 @media screen and (min-width:768px) {
     section.jumbotron h5 {
         font-size: 19px;
     }
+
+    div.about{
+        max-width: 650px;
+    }
 }
 
-
+@media screen and (min-width:992px){
+    div.about{
+        max-width: 70%;
+    }
+}
